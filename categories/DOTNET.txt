@@ -1,0 +1,12 @@
+What is .NET?	Free, cross-platform, open-source developer platform.
+What is ADO.NET?	Data access technology that provides uniform communication between code and databases.
+What is ASP.NET?	Server-side web-application framework designed for web development.
+What does the following command do: dotnet clean	Clean build outputs
+What does the following command do: dotnet build	Builds .NET application
+What does the following command do: dotnet new	Initializes a project for a given template
+What does the following command do: dotnet restore	Restore the dependencies for a given application
+What does the following command do: dotnet run	Runs the application from source
+What does the following command do: dotnet sln	Option to add, remove, and list projects in a solution file
+What does the following command do: dotnet test	Runs tests using a test runner
+What does the following command do: dotnet add reference	Adds a project reference to csproj
+What does the following command do: dotnet add package	Adds a NuGet package to csproj

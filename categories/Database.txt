@@ -1,0 +1,22 @@
+What is normalization?	Process of structuring a relational database in accordance to normal forms
+What are the first 3 normal forms?	<ol><li>1NF - each table cell should contain a single value and each record needs to be unique</li><li>2NF - is 1NF and a primary key that does not functionally depend on any subset of candidate key relation</li><li>3NF - is 2NF and has no transitive functional dependencies*</li></ol><div><br></div><div>* Suppose you have A, B, and C, if A depends on B (A -&gt; B) and B depends on C (B -&gt; C), then A is transitive dependent on C (A -&gt; C).</div>
+What is DDL?	Data definition language. Used to create and modify the structure of database objects.
+What are commonly used DDL SQL statements?	<ul><li>Create</li><li>Alter</li><li>Drop</li><li>Truncate</li></ul>
+What is DML?	Data manipulation language. Used for adding, deleting, and modifying data in a database.
+What are commonly used DML SQL statements?	<ul><li>Select</li><li>Update</li><li>Insert</li><li>Delete</li></ul>
+What does the following SQL statement do: JOIN	Inner join of tables. Returns records that have matching values in both tables
+What does the following SQL statement do: LEFT JOIN	Returns all records from the left table, and the matched records from the right table
+What does the following SQL statement do: RIGHT JOIN	Returns all records from the right table, and the matched records from the left table
+What does the following SQL statement do: FULL JOIN	Returns all records when there is a match in either left or right table
+What are aggregate functions in SQL?	Performs calculations on a set of values and returns a single value
+Name 5 aggregate functions.	<ul><li>Count</li><li>Sum</li><li>Min</li><li>Max</li><li>Avg</li></ul>
+What is multiplicity in SQL?	Specifies the cardinality/number of instances of an entity type that can be associated with the instances of another entity type.
+What is an ERD?	Entity relationship diagram. Flowchart that describes/illustrates interrelated entities in a specific domain of knowledge.
+What is connected architecture?	Connection between database and application is established for the full time.
+What is disconnected architecture?	Connectivity between the database and application is not maintained full time. Connectivity is only established when reading or updating data to the database.
+What is ORM?	Object-relational mapping. Technique that lets you query and manipulate data from a database using an object-oriented paradigm.
+What is EF Core?	Entity Framework Core. Serves as an object-relational mapper. Data access is performed using a model. A model is entity classes and a context object that represents a session with the database.
+What is REST API?	Architectural type of web service that process data in the backend. Then, servers the data in the front end to the user.
+How do you connect to SQL database in ADO.NET?	Create SQL connection.<br>Provide connection string.<br>Open the connection.<br>*Make sure to close connection. This is an example for connected architecture.<br>*DataReader is an example for disconnected architecture.
+What are stored procedures?	Prepared SQL code that you can save. The code can be reused over again.<br><br>CREATE PROCEDURE procedure_name<br>AS<br>sql_statement<br>GO;<br><br>EXEC procedure_name;
+What is ACID?	<div>Set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps. Example, transactions at a bank. One has to finish before the next can happen because discrepancies.</div><ul><li>Atomicity</li><li>Consistency</li><li>Isolation</li><li>Durability</li></ul>

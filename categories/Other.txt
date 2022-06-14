@@ -1,0 +1,5 @@
+What is Docker?	Platform that uses OS virtualization to deliver software in packages called containers.
+What is the difference between containerization vs virtualization?	<ul><li>Containerization - deploy multiple applications using the same OS on single VM or server</li><li>Virtualization - run multiple OS on the hardware of a single physical server</li></ul>
+What are the advantages of cloud?	<ul><li>Pay-as-you-go</li><ul><li>pay for what you use</li></ul><li>not on personal machine</li><ul><li>hardware is expensive</li></ul></ul>
+What is cloud?	Servers that are accessed over the internet.
+What is bicep?	Domain-specific language, DSL, that uses declarative syntax to deploy Azure resources.
