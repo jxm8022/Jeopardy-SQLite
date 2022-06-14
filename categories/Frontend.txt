@@ -1,0 +1,30 @@
+Explain the HTTP lifecycle.	<ol><li>Translate the url to an IP address</li><li>Open TCP connection to IP address and send GET request</li><li>Generate response and send it back through TCP connection</li><li>HTTP request is done and renders it on the screen</li></ol>
+What is middleware?	Computer software that provides services to software applications beyond those available from the operating system. Acts as a bridge between OS and applications. Enables communication and data management for distributed applications.
+What are HTTP response status codes?	Codes that indicate whether a specific HTTP request has be successfully completed.
+What are the five classes of HTTP responses?	<ul><li>Information responses (100-199)</li><li>Successful responses (200-299)</li><li>Redirection messages (300-399)</li><li>Client error responses (400-499)</li><li>Server error responses (500-599)</li></ul>
+Name a few common status codes.	<ul><li>404 - not found</li><li>200 - ok</li><li>204 - no content</li></ul>
+What is CORS?	Cross-Origin Resource Sharing. HTTP based mechanism that allows a server to indicate any origins other than its own from which a browser should permit loading resources.
+What is DOM?	Document Object Model. Interface for web documents. Represents the page so programs can change the document structure, style, and content.
+What is metadata?	Information about the document.
+What is Angular?	Web application framework for building single-page client applications using HTML and TypeScript.
+What is SPA?	Single-page application. Loads a single HTML page. The page does not reload or transfer control to another page during the process.
+What is a component?	Basic UI building block of Angular. Subset of directives, always associated with a template. Modular piece/view of front-end.
+What is directive?	Classes that add additional behavior to elements.
+What are the three directives?	<ul><li>Component</li><li>Structure Directives</li><li>Attribute Directives</li></ul>
+What is a structural directive? What are examples?	Controls whether it is rendered at run time, based on its input expression. Examples: *ngIf, *ngFor, *ngSwitch
+What is an attribute directive? Give examples.	Allows elements to have dynamic behaviour. Examples: *ngClass, *ngStyle, *ngModel
+What is a lifecycle hook?	"Functionality that allows the programmers to ""hook into"" and run code a specific lifecycle event of a component or directive"
+What are a few lifecycle hooks?	<ul><li>ngOnChanges()</li><li>ngOnInit()</li><li>ngDoCheck()</li><li>ngOnDestroy()</li></ul>
+What are two model bindings?	One way binding and two way binding
+What are the three bindings in one way binding?	<ul><li>Event binding - (click)</li><ul><li>HTML -&gt; TS</li></ul><li>Property binding - [attr-name]</li><ul><li>TS to HTML</li></ul><li>string interpolation - {{varName}}</li><ul><li>TS to HTML</li></ul></ul>
+What is two way binding and how do we achieve it?	Enables data to flow from the component to the view and visa versa. Achieved with the banana box [(modelName)]
+What is a module?	Mechanism to group components, directives, pipes and services that are related.
+What is a decorator?	Special syntax to let angular know that it is an angular element. The angular element contains metadata to a class, method, accessor, property, or parameter.
+What is a pipe?	Simple functions to use in template expressions to accept an input value and return a transformed value.
+What are a few build in pipes?	<ul><li>DatePipe</li><li>UpperCasePipe</li><li>LowerCasePipe</li><li>CurrencyPipe</li><li>DecimalPipe</li><li>PercentPipe</li></ul>
+What is the difference between let and var?	<ul><li>Let is limited in scope</li><li>Var is not limited in scope, it is global</li></ul>
+What is a directive?	Classes that add additional behavior to elements.
+What is the difference between == and ===?	== does the type conversion of the operands before comparison.<br>=== compares the values as well as data types of the operands.
+What is async in JavaScript?	Keyword placed before a function to allow the function to return a promise.
+What is AJAX?	Asynchronous Javascript and XML. Allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. Makes it possible to update parts of the page, without reloading the whole page.
+How do you create a new angular project?	ng new Project_Name<br><br>Follow-up questions when creating new project:<br>Would you like to add Angular routing?<br>Which stylesheet format would you like to use?

@@ -1,0 +1,10 @@
+What is TDD?	Test-driven development. Creating test before developing the code. The life cycle is writing a test for single aspect of program(test fails because code is yet to be implemented), implement the code (test should pass), and refactor.
+What is BDD?	Behavior-driven development. The life cycle is create the test set, implement the feature, and verify the implementation of the feature makes the tests succeed.
+What is xUnit?	Open source testing tool for .NET Framework.
+What is MOQ?	Mocking framework for C# and .NET. Used to isolate a class under test from its dependencies and ensure that the proper methods on the dependent objects are being called.
+What is SonarCloud?	Cloud-based code quality and security service.
+What is a CI/CD pipeline?	Continuous integration and continuous deployment. Process that drives software developement through a path of building, testing, and deploying code.
+What is Karma?	Default test runner for applications created with Angular CLI. Browser test runner.
+What is Jasmine?	Javascript testing framework.
+What is unit testing?	testing method by which individual units of source code are tested to determine whether they are fit for use
+How do you improve code quality?	"Multiple ways. Use immutable data structures, group related code, refactor, etc. More code quality rules can be found with this link.&nbsp;<a href=""https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/"">https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/</a>. A few are:<br><ul><li>Do not declare static members on generic types</li><li>Do not expose generic lists</li><li>Avoid zero-length array allocations</li></ul>"

@@ -1,0 +1,23 @@
+What is Bash/Bash shell?	Bash, Bourne Again Shell, is a command-line interface.&nbsp;
+What does the following command do: ls	List current working directory contents
+What does the following command do: echo	Prints text to the terminal window
+What does the following command do: touch	Creates a file
+What does the following command do: mkdir	Creates a directory
+What does the following command do: grep	"Search for text. <i>grep 'word' filename</i>"
+What does the following command do: man	Print manual/help for a command
+What does the following command do: pwd	Prints the current working directory
+What does the following command do: cd	Changes directory
+What does the following command do: mv	Used to move or rename directory
+What does the following command do: rmdir	Remove directory. Will only delete empty directories.
+What does the following command do: locate	Locate specific file or directory
+What does the following command do: less	View contents of a text file
+What does the following character do: &gt;	"Redirects output. <i>echo ""contents of file1"" &gt; file1</i> will create a file called file1 and puts the echoed string into it."
+What does the following character do: |	Pipe. Takes standard output of one command and passes it as the input to another.
+What does the following command do: cat	Versitle as it can display a file, create a file, and concatenate files.
+What does the following command do: head	Read the start of a file
+What does the following command do: tail	Read the end of a file
+What does the following command do: chmod	Set permissions on a file or folder
+What does the following command do: exit	Exit out of directory. Close the terminal window and end execution.
+What does the following command do: history	List most recent commands
+What does the following command do: clear	Clear terminal window of any commands and output
+What does the following command do: cp	Copy files and directorties. <i>cp current_name new_name</i>

@@ -1,0 +1,16 @@
+What is Git?	Software to track changes in files.
+What is GitHub?	Internet(cloud) host for software development and version control using Git.
+What does the following command do: git status	Shows modified files in working directory. Also, what is staged for the next commit.
+What does the following command do: git add [file]	Adds the file to the next commit
+What does the following command do: git reset [file]	Unstage file but retaining changes in current working directory
+"What does the following command do: git commit -m ""[message]"""	commit the staged content
+What does the following command do: git branch	List branches
+What does the following command do: git branch [branch name]	Creates branch with given name
+What does the following command do: git checkout [branch name]	Switch to specified branch
+What does the following command do: git init	Initialize an existing directory as git repository
+What does the following command do: git clone [url]	Retrieve repository from hosted location via url provided
+What does the following command do: git remote add origin [url]	Adds url to alias provided (origin)
+What does the following command do: git push	Transmits local branch commits to remote repository
+What does the following command do: git pull	Fetches and merges any commits from remote branch
+What is Gitflow?	Alternative Git branching model that involves the use of feature brances and multiple primary branches.
+What are merge conflicts?	When one branch is merged into another and competing commits. The developer then handles these commits because the computer does not want to mess them up.

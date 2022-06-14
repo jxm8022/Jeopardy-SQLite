@@ -1,0 +1,40 @@
+What is C#?	Object-oriented programming language. Primary language used to create .Net software applications.
+What is a class?	User-defined blueprint. Has properties, methods, etc. Provides definition for instances of the class.
+What is an object?	Instance of a class. Real-world entity having characteristics (stated in class).
+What are the two common types in C#?	Value types and reference types
+What is a Value type?	Data type that holds data within its own memory space. Few examples: bool, char, decimal, double, float, int, etc.
+What happens when you pass value types to functions?	Creates a copy of the information stored in variable memory block. aka Does not change the original variable data.
+What is a Reference type?	Does not store the value directly into memory block. The address is stored instead. The address contains the value that is being stored. Few examples: String, Arrays, Class, etc.
+What happens when you pass reference types to functions?	"A new copy is not created like value types. Instead, it passes the variable's address. So, if you were to manipulate the data, the original data will be overwritten."
+What is boxing?	Process of converting a value type to type <i>object</i> or any interface. It is implicit(done by tool, not programmer).
+What is unboxing?	Extracts the value type from the object. It is explicit(done by programmer).
+What are primitive data types?	Predefined data types such as Byte, Boolean, Int (16,32), Char, Double.
+What are class members?	Fields and methods.
+What is the difference between fields and properties?	Properties expose fields. <i>Property{ get; set; }</i>.
+What are access modifiers?	Keywords that define the accessibility of a member, class, or datatype in a program?
+What are the access modifiers? Give a brief explanation of each.	<ul><li>public - can be accessed by any other code in same assembly or another that references it.</li><li>private - can be accessed only by the code in the same class or struct.</li><li>protected - can be accessed by the code in the same class, or class derived from another class (parent class).</li><li>internal - can be accessed by any code in the same assembly, but not from another assembly.</li></ul>
+What are non-access modifiers? Name a couple.	<div>Keywords that do not have anything related to the level of access but provide special functionality when specified</div><ul><li>Static</li><li>Abstract</li></ul>
+What is a static class?	Type of class that cannot be instantiated.
+What is an abstract class?	Objects cannot be created for abstract classes. The methods inside the class can either have an implementation or no implementation.
+How does the code get compiled?	<ol><li>Compile source code with correct C# compiler.</li><li>Combine compilation with assemblies.</li><li>Load the common language runtime (CLR).</li><li>Execute the assembly by CLR to generate the output.</li></ol>
+What is the CLR?	Common Language Runtime. Run-time environment in the .NET Framework that runs the code.
+What is the difference between <i>break</i> and <i>continue</i>?	Break exits the loop and continue does not. Instead, continue causes the next loop interation to start.
+What is method overloading?	Two methods in a class with the same name but difference parameters.
+What is method overriding?	Technique that allows the child class to change(override) the implementation of the parent class methods.
+What is serialization?	Process of converting an object into a stream of bytes to store the object to memory, database, or file.
+What is deserialization?	Reading a stream of bytes. Loads the state of the object into memory.
+What is implicit conversions?	Data conversion where no special syntax is required. No data will be lost.
+What is explicit conversions?	Data conversion that requires a cast expression. Cast expression is needed because information might be lost in the conversion.
+What is a data structure?	Data organization, management, and storage format that enables efficient access and modification. Few examples: Array, Stack, Queue.
+What are generics?	General form and not specific to a particular data type. Denoted with &lt;&gt;. Increases the reusability of the code. Type-safe. Performance advantage.
+What is LINQ?	Language-Integrated Query. Integration of query capabilities directly into the C# language.
+What is SQL adapter?	Adapter class in C# to connect with a SQL Server database. SqlDataAdapter is used in conjunction with SqlConnection and SqlCommand to increase performance.
+What are delegates?	An object which refers to a method. Reference type variable that can hold a reference to the method. Similar to pointers in C. Provides a way to tell which method is to be called when an event is triggered.
+What is the namespace for Lists, Dictionaries, HashSets, etc?	System.Collections.Generic
+What is async in C#?	A modifier to specify that a method is asynchronous. The method runs synchronously until it reaches the first await expression.
+What is await in C#?	Operator that suspends evaluation of the enclosing async method until the asynchronous operation represented by its operand completes.
+Why would you use async and await?	If we have any I/O-bound needs like accessing a database, reading and writing to a file system, or requesting data from a network.
+What is an interface?	Programming structure/syntax that allows the computer to enforce certain properties on an object(class).
+What architecture does DataReader use?	Uses connected architecture, to maintain a connection with the database to read information. The connection needs to be closed.
+What architecture does DataAdapter/DataSet use?	Uses disconnected architecture, to connect to the database but immediatly closes the connection as soon as it is done loading data.
+How do you create an API using ASP.NET?	dotnet new webapi -o API_Name
